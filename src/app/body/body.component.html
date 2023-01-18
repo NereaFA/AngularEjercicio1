@@ -1,0 +1,8 @@
+<p>body works!</p>
+
+<div class="container" *ngFor="let bici of bicis" [ngStyle]="{background:myModo}">
+    <h4>{{bici.name}}</h4>
+    <p>{{bici.type}}</p>
+    <img src="{{bici.photo}}" alt="{{bici.name}}"/>
+    <app-cabecera></app-cabecera>
+</div>
